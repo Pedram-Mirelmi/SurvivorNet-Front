@@ -1,0 +1,55 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/*
+MAIN COLOR: #087f5b
+GREY COLOR: #343a40
+*/
+
+.auth-section {
+    margin: 128px auto;
+    justify-content: center;
+    /*gap: 0;*/
+}
+
+.entry-card {
+    width: 450px;
+    margin: 100px 64px;
+    gap: 16px;
+}
+
+.entry-form {
+    gap: 8px;
+}
+
+.grid-2-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 18px;
+}
+
+.auth-page-title {
+    color: var(--primary-dark);
+    word-spacing: -3px;
+    margin-bottom: 48px;
+}
+
+.entry-p {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.btn--primary {
+    margin: 8px 0;
+}
+
+.forgot-pass {
+    font-size: 12px;
+}

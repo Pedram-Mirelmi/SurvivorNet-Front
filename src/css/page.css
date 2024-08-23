@@ -1,0 +1,96 @@
+.page-header {
+    flex-basis: 100%;
+    width: 100%;
+    font-weight: 700;
+    font-size: 30px;
+    background-color: var(--primary-color);
+
+    margin-bottom: 16px;
+    padding: 32px 16px;
+
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+
+
+.page-layout {
+    width: 1380px;
+    margin: 0 auto;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+
+.aside-logo {
+    width: 82px;
+}
+
+aside {
+    align-self: flex-start;
+}
+
+.feed {
+    flex-basis: 60%;
+    align-items: center;
+    gap: 16px;
+}
+
+.feed .card {
+    width: 100%;
+}
+
+.page-aside {
+    flex-basis: 20%;
+}
+
+
+.btn {
+    padding: 8px 12px;
+}
+
+.card textarea {
+    width: 100%;
+}
+
+.aside-icon {
+    width: 24px;
+    height: auto;
+}
+
+.navbar-option, .navbar-option-selected {
+    gap: 8px;
+}
+
+.navbar-option a, .navbar-option-selected a {
+    font-size: 18px;
+    color: var(--primary-dark);
+    text-decoration: none;
+}
+
+.navbar-option-selected a {
+    color: var(--secondary-light);
+    cursor: default;
+    font-weight: 600;
+}
+
+.navbar-option a:hover{
+    font-weight: 700;
+}
+
+/*.navbar-option-selected {*/
+/*    font-size: 20px;*/
+/*    color: var(--secondary-light);*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.navbar-logout-option a {*/
+/*    color: var(--primary-dark);*/
+/*    font-weight: 800;*/
+/*}*/
+
+.navbar-logout-option a:hover {
+    color: darkred;
+    font-weight: 800;
+}

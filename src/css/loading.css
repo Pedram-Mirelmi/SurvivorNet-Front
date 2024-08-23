@@ -1,0 +1,116 @@
+.sk-p-title-c {
+}
+
+.sk-p-title {
+    width: 70%;
+    height: 20px;
+    border-radius: 100px;
+}
+
+.sk-p-name {
+    border-radius: 100px;
+    height: 14px;
+}
+
+.sk-p-name-c {
+    width: 10%;
+}
+
+.sk-p-username {
+    border-radius: 100px;
+    height: 14px;
+}
+
+.sk-p-username-c {
+    width: 10%;
+}
+
+.sk-p-caption {
+    border-radius: 100px;
+}
+
+.sk-p-parent {
+
+}
+
+.sk-p-parent-c {
+    width: 15%;
+}
+
+.sk-ph-cover {
+    border-radius: 20px;
+    height: 196px;
+}
+
+.sk-ph-cover-c {
+    width: 100%;
+}
+
+.sk-ph-profile-pic-c {
+    position: absolute;
+    left: 32px;
+    top: 146px;
+}
+
+.sk-ph-profile-pic {
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    border-radius: 99999px;
+}
+
+.sk-ph-btn-c {
+    width: 10%;
+}
+
+.sk-ph-btn {
+    height: 20px;
+    width: 100%;
+}
+
+.sk-ph-name {
+    border-radius: 100px;
+    height: 24px;
+    width: 40%;
+}
+
+.sk-ph-name-c {
+}
+
+.sk-ph-username {
+    border-radius: 100px;
+    height: 14px;
+    width: 15%;
+}
+
+.sk-ph-username-c {
+
+}
+
+.sk-ph-bio {
+    border-radius: 100px;
+
+}
+
+.sk-ph-bio-c {
+
+}
+
+.sk-ph-followings {
+    border-radius: 100px;
+    width: 100%;
+}
+
+.sk-ph-followings-c {
+    width: 15%;
+
+}
+
+.sk-ph-followers {
+    border-radius: 100px;
+    width: 100%;
+}
+
+.sk-ph-followers-c {
+    width: 15%;
+}
