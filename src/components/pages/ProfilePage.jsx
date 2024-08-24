@@ -41,7 +41,8 @@ class ProfilePage extends Component {
 
   getUserInfo() {
     console.log("getting userInfo");
-    axios.get(baseApiUrl + "users/" + this.state.userInfo.username,
+    const path = `${baseApiUrl}/users/${this.state.userInfo.username}`;
+    axios.get(path,
       {headers: {Authorization: localStorage.getItem("jwt")}})
       .then(response => {
         console.log("got userInfo");
@@ -55,8 +56,10 @@ class ProfilePage extends Component {
 
   getPosts() {
     console.log("getting posts");
-    axios.get(baseApiUrl + "users/" + this.state.userInfo.username + "/posts", {params: {"chunk": this.state.lastChunk}, headers: {Authorization: localStorage.getItem("jwt")}} )
-      .then((response) => {
+    const path = `${baseApiUrl}/users/${this.state.userInfo.username}/posts`;
+    axios.get(path,
+      {params: {"chunk": this.state.lastChunk}, headers: {Authorization: localStorage.getItem("jwt")}} )
+    .then((response) => {
         if(response.status === 200) {
           console.log("got posts");
           console.log(response);
@@ -65,8 +68,8 @@ class ProfilePage extends Component {
             lastChunk: this.state.lastChunk + 1,
             postsLoaded: true
           });
-        }
-      }).catch(error => {
+        }})
+    .catch(error => {
       console.log(error)
     });
   }

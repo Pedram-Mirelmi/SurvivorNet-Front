@@ -27,8 +27,10 @@ class HomePage extends Component {
 
     let jwtToken = localStorage.getItem("jwt")
     console.log("mounted!" + jwtToken);
-    axios.get(baseApiUrl + "posts/home", {params: {"chunk": this.state.lastChunk}, headers: {Authorization: jwtToken}} )
-      .then((response) => {
+    const path = `${baseApiUrl}/posts/home`;
+    axios.get(path,
+      {params: {"chunk": this.state.lastChunk}, headers: {Authorization: jwtToken}} )
+    .then((response) => {
         console.log(response);
         this.setState({
           posts: [...response.data, ...this.state.posts],
@@ -36,7 +38,7 @@ class HomePage extends Component {
           postsLoaded: true
         });
       })
-      .catch(error => {
+    .catch(error => {
       console.log(error)
     });
   }
@@ -62,7 +64,7 @@ class HomePage extends Component {
       <Page title="Home" selected="Home">
         <Feed>
           <PostComposition onNewPost={this.onNewPost.bind(this)}/>
-          {this.state.postsLoaded ? <PostList posts={this.state.posts}/> : <LoadingPost/> }
+          {this.state.postsLoaded ? <PostList posts={this.state.posts} {...this.props}/> : <LoadingPost/> }
         {/*  TODO add "load more" button*/}
         </Feed>
       </Page>

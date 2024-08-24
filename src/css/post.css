@@ -11,24 +11,43 @@
 }
 
 .profile-photo-s {
+    cursor: pointer;
     border-radius: 9000px;
     height: 48px;
     width: auto;
 }
 
 .post-title {
+    cursor: pointer;
     font-size: 20px;
     font-weight: 700;
 }
 
 .post-owner-name {
+    cursor: pointer;
     font-size: 14px;
     font-weight: 600;
 }
 
 .post-owner-username {
+    cursor: pointer;
     font-size: 12px;
     color: var(--text-grey);
+}
+
+.comment-owner-name {
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    display: inline;
+}
+
+
+.comment-owner-username {
+    cursor: pointer;
+    font-size: 10px;
+    color: var(--text-grey);
+    display: inline;
 }
 
 .post-caption {
@@ -44,4 +63,27 @@
     font-style: italic;
     color: var(--text-grey);
     cursor: pointer;
+}
+
+.tab-card {
+    width: 100%;
+    border: 1px solid var(--border-grey);
+    border-radius: 14px;
+    background: var(--background-grey);
+    padding: 0;
+    justify-content: space-around;
+}
+
+.p-tab {
+    margin: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    flex-shrink: 1;
+    width: 100%;
+    text-align: center;
+}
+
+.p-tab-selected {
+    background-color: var(--primary-light);
 }

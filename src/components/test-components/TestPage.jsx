@@ -7,6 +7,7 @@ import LoadingPost from "../loading-components/loading-post";
 import LoadingProfileHeader from "../loading-components/loadingProfileHeader";
 import Feed from "../feed";
 import {Component} from "react";
+import SingleSearchResult from "../singleSearchResult";
 
 
 export default class TestPage extends Component {
@@ -35,9 +36,11 @@ export default class TestPage extends Component {
   render() {
     return (
       <div>
-        <button onClick={this.incrementA.bind(this)}>Increment A which is {this.state.a} now</button> <br/>
-        <button onClick={this.incrementB.bind(this)}>Increment B which is {this.state.b} now</button> <br/>
-        <button onClick={this.incrementC.bind(this)}>Increment C which is {this.state.c} now</button> <br/>
+        <SingleSearchResult userInfo = {{
+          username: "username",
+          firstname: "fname",
+          lastname: "lname",
+        }}/>
 
       </div>
     );

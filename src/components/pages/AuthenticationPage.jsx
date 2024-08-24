@@ -17,7 +17,7 @@ class AuthenticationPage extends Component {
   handleSubmission(e) {
     console.log("submitted");
     e.preventDefault();
-    const path = baseApiUrl + "auth/" +(this.props.step === "login" ? "login" : "register")
+    const path = `${baseApiUrl}/auth/${this.props.step === "login" ? "login" : "register"}`
 
     axios.post(path, {...this.state})
       .then(response => {

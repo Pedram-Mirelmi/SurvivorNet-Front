@@ -5,6 +5,7 @@ import HomePage from "./components/pages/HomePage";
 import ProfilePage from "./components/pages/ProfilePage";
 import SearchPage from "./components/pages/SearchPage";
 import TestPage from "./components/test-components/TestPage";
+import PostPage from "./components/pages/PostPage";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             props.history.replace("/login");
           }}/>
           <Route path="/users/:username" render={props => <ProfilePage {...props} /> } />
+          <Route path="/posts/:postId" render={props => <PostPage {...props} /> } />
           <Route path="/search" render={props => <SearchPage {...props}/> } />
           <Route path="/" render={(props) => <HomePage {...props} />}/>
         </Switch>

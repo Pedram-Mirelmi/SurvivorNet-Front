@@ -2,59 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5e7cc39-7690-4685-8531-31309e488b92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PostComposition.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/aside.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/feed.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/loading-components/loading-post.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/loading-components/loadingProfileHeader.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pageHeader.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/AuthenticationPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/EditProfilePage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/HomePage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/Page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/ProfilePage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/SearchPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/post.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/postList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/profileHeader.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sideNavbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/singleSearchResult.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/test-components/TestPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/test-components/test-loading.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/Entry.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/loading.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/post.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/profile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/globals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html/color-scheme.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html/post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html/profileHeader.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html/sample-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html/signUp1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html/singUp2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/LoginPic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/icons/LoginPic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/icons/add-image.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/icons/home.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/icons/logout.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/icons/profile.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/icons/question.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/icons/report.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/icons/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/logo-min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/sample-post-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/sample-profile-cover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/sample-profile-photo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/AuthenticationPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/AuthenticationPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/HomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/ProfilePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/ProfilePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/SearchPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/SearchPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/post.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/postList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/postList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/singleSearchResult.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/singleSearchResult.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/test-components/TestPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/test-components/TestPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/post.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/post.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/globals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/globals.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +132,9 @@
       <workItem from="1724167642904" duration="3105000" />
       <workItem from="1724177132496" duration="3261000" />
       <workItem from="1724182141951" duration="12396000" />
-      <workItem from="1724317062933" duration="32471000" />
+      <workItem from="1724317062933" duration="32821000" />
+      <workItem from="1724447345934" duration="656000" />
+      <workItem from="1724494873889" duration="14723000" />
     </task>
     <servers />
   </component>
@@ -193,17 +155,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/pages/ProfilePage.jsx</url>
-          <line>77</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
