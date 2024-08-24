@@ -35,7 +35,8 @@ body {
     --background-grey: #F7F9FA;
     --background-greyer: rgba(91, 112, 131, 0.20);
     --border-grey: rgba(91, 112, 131, 0.20);
-    --text-grey: #5B7083
+    --text-grey: #5B7083;
+    --text-greyer: #41505e;
 
 }
 

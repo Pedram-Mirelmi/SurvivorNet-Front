@@ -41,7 +41,7 @@ class ProfilePage extends Component {
 
   getUserInfo() {
     console.log("getting userInfo");
-    axios.get(baseApiUrl + "users/" + this.state.userInfo.userinfo,
+    axios.get(baseApiUrl + "users/" + this.state.userInfo.username,
       {headers: {Authorization: localStorage.getItem("jwt")}})
       .then(response => {
         console.log("got userInfo");
@@ -90,7 +90,7 @@ class ProfilePage extends Component {
       <Page title={title} selected={selected}>
         <Feed>
           {header}
-          { this.state.postsLoaded ? <PostList posts={this.state.posts} /> : <LoadingPost/> }
+          { this.state.postsLoaded ? <PostList posts={this.state.posts} {...this.props} /> : <LoadingPost/> }
         </Feed>
       </Page>
     );

@@ -30,6 +30,43 @@ class ProfileHeader extends Component {
     })
   }
 
+  onFollowBtnClicked () {
+    if(this.state.following) {
+      console.log("unfollowing");
+      axios.delete(baseApiUrl+"users/follow",
+        {headers: {Authorization: localStorage.getItem("jwt")}, params: {username: this.props.userInfo.username}})
+        .then(response => {
+          console.log(response);
+          this.setState({following: false})
+          // TODO pop up notification
+        })
+        .catch(error => {
+          console.log(error);
+        })
+    } else {
+      console.log("following");
+      axios.post(baseApiUrl+"users/follow",
+        {},
+        {headers: {Authorization: localStorage.getItem("jwt")}, params: {username: this.props.userInfo.username}})
+      .then(response => {
+        console.log(response);
+        this.setState({following: true})
+        // TODO pop up notification
+      })
+      .catch(error => {
+        console.log(error);
+      })
+
+    }
+
+
+  }
+
+  onEditBtnClicked() {
+    this.props.history.replace("/profile/edit");
+  }
+
+
   render() {
     const userInfo = this.props.userInfo;
     return (
@@ -38,8 +75,8 @@ class ProfileHeader extends Component {
         <img className="profile-photo" src={require("../resources/sample-profile-photo.png")}/>
           <div className="row row-right">
             <div className="divider"></div>
-            {this.state.isMyProfile ? <button className="btn btn--secondary btn-profile-header">Edit Profile</button> :
-              <button className="btn btn--secondary">{this.state.following ? "Unfollow" : "Follow"}</button>}
+            {this.state.isMyProfile ? <button className="btn btn--secondary btn-profile-header" onClick={this.onEditBtnClicked.bind(this)}>Edit Profile</button> :
+              <button className="btn btn--secondary" onClick={this.onFollowBtnClicked.bind(this)}>{this.state.following ? "Unfollow" : "Follow"}</button>}
           </div>
           <div className="profile-info">
             <h1 className="profile-name">{userInfo.firstname + " " + userInfo.lastname}</h1>
